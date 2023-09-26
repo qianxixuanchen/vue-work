@@ -7,9 +7,14 @@ module.exports = [
             list: ['1', '2'],
             name: 'asdsdasdas'
         },
-        attr: [{
-            key: 'v-if',
-            value: 'isShow'
-        }]
+        attr: {
+            'v-if': 'isShow'
+        },
+        children: [
+            {
+                template: 'span',
+                text: 'ansd kas daslndlajnsldknakkklasndl'
+            }
+        ]
     }
 ]
